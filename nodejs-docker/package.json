@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:debug-docker": "node --inspect=0.0.0.0:9229 index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
